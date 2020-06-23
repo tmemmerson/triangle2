@@ -1,6 +1,16 @@
 import { Triangle } from './../src/triangle.js';
 
 describe('Triangle', () => {
+  let reusableTriangle;
+
+  beforeEach(() => {
+    reusableTriangle = new Triangle(5, 5, 5);
+  });
+
+  test('should show how beforeEach() works', () => {
+    console.log(reusableTriangle);
+  });
+});
 
   test('should correctly create a triangle object with three lengths', () => {
     const triangle = new Triangle(2,4,5);
@@ -8,7 +18,6 @@ describe('Triangle', () => {
     expect(triangle.side2).toEqual(4);
     expect(triangle.side3).toEqual(5);
   });
-});
 
 test('should correctly determine whether three lengths are not a triangle', () => {
   const notTriangle = new Triangle(3,9,22);
