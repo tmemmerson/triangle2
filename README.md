@@ -1,7 +1,7 @@
 
-**EDIT** # _$TITLE$_
+# _TRIANGLE TRACKER_
 
-**EDIT** #### _$TAGLINE$_	
+#### _triangle tracker testing triangle types_	
 
 #### By _**Tristan Emmerson**_
 
@@ -17,7 +17,7 @@
 
 *  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
-**EDIT** *  _Github [repository](https://github.com/tmemmerson/$REPO$.git)_
+**EDIT** *  _Github [repository](https://github.com/tmemmerson/triangle2.git)_
 
 **EDIT** *  _Live [demo](https://tmemmerson.github.io/$REPO$/)_
 
