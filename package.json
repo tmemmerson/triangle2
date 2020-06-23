@@ -8,8 +8,8 @@
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest"
-}
-  "keywords": [],
+},
+  "keywords":[],
   "author": "Tristan Emmerson",
   "license": "ISC",
   "devDependencies": {
@@ -26,5 +26,5 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "4.39.3",
     "webpack-cli": "^3.3.8"
-  }
-}
+  }}
+
