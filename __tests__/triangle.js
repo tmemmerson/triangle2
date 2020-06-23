@@ -14,3 +14,8 @@ test('should correctly determine whether three lengths are not a triangle', () =
   const notTriangle = new Triangle(3,9,22);
   expect(notTriangle.checkType()).toEqual("not a triangle");
 });
+
+test('should correctly determine whether three lengths make an isosceles triangle', () => {
+  const isocTriangle = new Triangle(5,5,7)
+  expect(isocTriangle.checkType()).toEqual("isosceles triangle");
+});
